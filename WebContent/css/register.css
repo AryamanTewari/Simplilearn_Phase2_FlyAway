@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+.offset::before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: 4rem;
+}
+
+/*--Navigation--*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1EBBA3;
+}
+
+/*Navigation*/
+
+
+.form-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background: rgba(255, 255, 255, .1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .8);
+}
+
+.banner-heading {
+    letter-spacing: .5rem;
+    text-shadow: .1rem .1rem .8rem rgba(0, 0, 0, .4);
+}
+
+.back-container {
+    position: absolute;
+    top: 5.375rem;
+    left: 1.875rem;
+}
+
+a.prev{
+	cursor:pointer;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 2rem;
+
+}
+
+footer img {
+    height: 4rem;
+    margin: 1.5rem 0rem;
+}
+
+footer a {
+    color: white;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+}

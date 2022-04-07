@@ -1,0 +1,86 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+.offset::before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: 4rem;
+}
+
+/*--Navigation--*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #07D0F9;
+}
+
+/*Navigation*/
+
+/* header */
+header {
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .6)), url(../images/flight.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.banner-heading {
+    letter-spacing: 1rem;
+    text-shadow: .1rem .1rem .8rem rgba(0, 0, 0, .4);
+}
+
+.myimage {
+    height: 20rem;
+    margin-left: 8rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .4);
+}
+
+
+/*Footer*/
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 2rem;
+
+}
+
+footer img {
+    height: 4rem;
+    margin: 1.5rem 0rem;
+}
+
+footer a {
+    color: white;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+}
